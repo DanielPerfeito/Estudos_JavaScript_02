@@ -8,29 +8,40 @@
 </head>
 <body>
 
-    <h1>ESCAÇÃO DE TIMES</h1>
+    <h1>ESCALAÇÃO DE TIME</h1>
+
+    <h2>Escalar Jogador:</h2>
 
     <div class="escalar-jogador">
-        <label for="posicaoJogador">Posição:</label>
-        <input type="text" id='posicaoJogador' name="posicao" class="jogador-escalado">
+        <label for="posicao">Posição:</label>
+        <input type="text" id='posicao' name="posicao">
 
-        <label for="nomeJogador">Nome:</label>
-        <input type="text" id="nomeJogador" name="nome" class="jogador-escalado">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome">
 
-        <label for="camisaJogador">N° Camisa:</label>
-        <input type="text" id="camisaJogador" name="camisa" class="jogador-escalado">
+        <label for="numero">Número:</label>
+        <input type="text" id="numero" name="numero" class=>
 
         <button onclick="escalarJogador()">Escalar</button>
-        <button onclick="limparEscalacao()">Limpar</button>
     </div>
 
     <hr>
 
-    <h2>Lista de Jogadores Escalados:</h2>
+    <h3>Lista de Jogadores Escalados:</h3>
 
-    <ul id="escalacao">
+    <ul id="listaTime">
 
     </ul>
 
-</body>
+    <hr>
+
+    <div class="desescalar-jogador">
+        <h2>Desescalar Jogador:</h2>
+        
+        <label for="numeroParaRemover">N° Camisa</label>
+        <input type="text" id="numeroParaRemover" name="numeroParaRemover">
+        
+        <button onclick="desescalarJogador()">Desescalar</button>
+        </body>
+    </div>
 </html>
