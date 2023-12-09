@@ -1,4 +1,3 @@
-# 8 - Exercício 11
 
 ### Escalação do Time
 
