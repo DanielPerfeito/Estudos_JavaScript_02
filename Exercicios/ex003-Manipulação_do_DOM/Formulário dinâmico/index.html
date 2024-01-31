@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário dinâmico</title>
+    <script src="script.js" defer></script>
+
+    <style>
+
+        table, th, td{
+            border: solid 1px black;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Formulário Dinâminco</h1>
+
+    <form>
+        <label for="full-name">Nome Completo:</label>
+        <input id="full-name" type="text" name="full-name" placeholder="Seu nome completo aqui."> <br>
+        <label for="email">E-mail:</label>
+        <input id="email" type="email" name="email" placeholder="Seu melhor e-mail aqui."> <br>
+        <button id="btn-add" type="button">Adicionar</button>
+    </form>
+    
+    <hr>
+
+    <h2>Contatos Adicionados</h2>
+
+    <table id="contact-table">
+        <tr>
+            <th>Nome Completo</th>
+            <th>E-mail</th>
+            <th>Ação</th>
+        </tr>
+    </table>
+</body>
+</html>
